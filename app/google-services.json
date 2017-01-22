@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "154402380922",
+    "firebase_url": "https://fir-portalapp.firebaseio.com",
+    "project_id": "firebase-portalapp",
+    "storage_bucket": "firebase-portalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154402380922:android:d3bd587750d0d3fd",
+        "android_client_info": {
+          "package_name": "br.com.atarde.portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154402380922-jne1f6ohvga3unjjl6s7msuap8efg432.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "154402380922-gir6u3le61s5qcppupcrhl9fhlhc94it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWDtwEZmR0q_hva-KlnkP4I8lx2uHpuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
