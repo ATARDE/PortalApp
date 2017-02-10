@@ -3,9 +3,13 @@ package br.com.atarde.portal;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
+
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 
 public class MainActivity extends Activity  {
@@ -28,6 +32,7 @@ public class MainActivity extends Activity  {
                 Toast.makeText(activity, description, Toast.LENGTH_SHORT).show();
             }
         });
+
 
         webView .loadUrl("http://www.atarde.uol.com.br");
         setContentView(webView );

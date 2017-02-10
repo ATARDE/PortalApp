@@ -21,6 +21,10 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar">
 
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/myicon" />
+
 
         <activity android:name="br.com.atarde.portal.MainActivity">
             <intent-filter>

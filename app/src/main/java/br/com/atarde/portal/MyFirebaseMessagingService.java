@@ -30,12 +30,18 @@ import android.provider.Settings;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.google.android.gms.gcm.GcmPubSub;
+import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.iid.InstanceID;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
+
+import java.io.IOException;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "MyFirebaseMsgService";
+
 
     /**
      * Called when message is received.
@@ -61,6 +67,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         }
 
         sendNotification(remoteMessage.getNotification().getBody());
+
+
+
+
 
     }
 
@@ -91,5 +101,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
     }
+
+
 
 }
